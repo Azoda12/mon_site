@@ -6,8 +6,11 @@ body{
     background-color: #121212;
 }
 
-.rouge{
-    color: red;
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
 }
 
 /* Nav barre*/
@@ -17,14 +20,14 @@ nav.menu-nav ul li.btn{
     z-index: 1;
     list-style-type: none;
     position: sticky;
-    background-color: black;
+    padding: 14px;
 }
 
 nav.menu-nav ul li.btn a{
     margin-top: 0;
     text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    background-color: white;
     padding: 15px;
 }
 
@@ -33,15 +36,6 @@ nav.menu-nav ul li.btn:hover a{
     background-color: black;
     transition: 0.15s; all;
     border-radius: 30%;
-}
-
-nav.menu-nav ul li.btn .arrondie{
-    margin-top: 0;
-    text-decoration:none;
-    color: white;
-    background-color: black;
-    padding: 14px;
-    border-radius: 0px 0px 15px 0px;
 }
 
 nav.menu-nav ul li.btn:hover .arrondie2{
@@ -57,6 +51,12 @@ nav.menu-nav ul li.btn img{
     height: 42px;
     vertical-align: middle;
     border-radius: 45%;
+}
+
+.menu-nav ul{
+    background-color: antiquewhite;
+    border-radius: 0px 0px 15px 0px;
+    margin-left: -40px;
 }
 
 .nav-underline{
@@ -78,12 +78,10 @@ nav.menu-nav ul li.btn img{
 
 .panels{
     display: flex;
-    height: 100vh;
-    width: 100vw;
 }
 
 .panel{
-    height: 33%;
+    height: 40vh;
     flex: 1;
     transition: flex 0.6s;
     background-repeat: no-repeat;
@@ -92,23 +90,23 @@ nav.menu-nav ul li.btn img{
 }
 
 .panel:hover{
-    flex: 4;
+    flex: 3;
 }
 
 .jeu1{
-    background-image: url("../img/assassin's creed pres.jpg");
+    background-image: url("../img/assassin's_creed_pres.jpg");
 }
 
 .jeu2{
-    background-image: url("../img/ghost of tsushima pres.png");
+    background-image: url("../img/ghost_of_tsushima_pres.png");
 }
 
 .jeu3{
-    background-image: url("../img/god of war pres.jpg");
+    background-image: url("../img/god_of_war_pres.jpg");
 }
 
 .jeu4{
-    background-image: url("../img/the witcher pres.png");
+    background-image: url("../img/the_witcher_pres.png");
 }
 
 .titrePresentation{
@@ -118,7 +116,7 @@ nav.menu-nav ul li.btn img{
     transition: opacity 1s;
     display: flex;
     justify-content: center;
-    margin-top: 12vh;
+    margin-top: 15vh;
 }
 
 .titrePresentation:hover{
@@ -132,7 +130,6 @@ align-content: center;
     margin: 20px;
     margin-top: 80px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -153,6 +150,7 @@ align-content: center;
 
 .cards .card img{
     width: 15vw;
+    text-align: center;
 }
 
 .cards .card .card-header{
@@ -161,7 +159,7 @@ align-content: center;
     justify-content: space-between;
     }
 
-.cards .card .cad-body p{
+.cards .card .card-body p{
     margin-top: -10px;
 }
 
