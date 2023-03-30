@@ -1,0 +1,147 @@
+body{
+    background-color: #121212;
+        background-size:cover;
+    background-position: center;
+    color: black;
+    font-family: 'paragraphe';
+    font-size: 130%;
+    font-weight: bold;
+}
+
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    margin: 15px;
+}
+
+
+/* Nav barre*/
+
+
+.nav{top: 0;
+    position: sticky;
+    z-index: 1;
+    }
+
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    z-index: 1;
+    list-style-type: none;
+    position: sticky;
+    padding: 14px;
+}
+
+
+nav.menu-nav ul li.btn a{
+    margin-top: 0;
+    text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 15px;
+}
+
+
+nav.menu-nav ul li.btn:hover a{
+    color: white;
+    background-color: black;
+    transition: 0.15s; all;
+    border-radius: 10px;
+}
+
+
+
+
+nav.menu-nav ul li.btn img{
+    background-image: url("img/logo_black.png");
+    padding:auto;
+    z-index: 1;
+    width: 56px;
+    height: 42px;
+    vertical-align: middle;
+    transition: 0.15s;
+}
+
+nav.menu-nav ul li.btn img:hover{
+    background-image: url("img/logo_white.png");
+    padding:auto;
+    z-index: 1;
+    width: 56px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.menu-nav ul{
+    background-color: antiquewhite;
+    border-radius: 0px 0px 15px 0px;
+    margin-left: -40px;
+}
+
+
+/* Panel de presentation */
+
+
+
+/* Suite */
+
+
+.suite{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Card */
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.cards .card{
+    margin: 20px;
+    justify-content: center;
+    width: 16.6%;
+    min-width: 150px;
+}
+
+
+.cards .card img{
+    width: 100%;
+    min-width: 120px;
+}
+
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    }
+
+
+.cards .card .card-body p{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+/* Footer  */
+
+
+.deep-end{
+    text-align: center;
+}
