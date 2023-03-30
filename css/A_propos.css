@@ -1,0 +1,225 @@
+html.body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+    background-size:cover;
+    background-position: center;
+    color: black;
+    font-family: 'paragraphe';
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+/* Nav barre*/
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    z-index: 1;
+    list-style-type: none;
+    position: sticky;
+    padding: 14px;
+}
+
+nav.menu-nav ul li.btn a{
+    margin-top: 0;
+    text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 15px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: white;
+    background-color: black;
+    transition: 0.15s; all;
+    border-radius: 10px;
+}
+
+nav.menu-nav ul li.btn:hover .arrondie2{
+    color: #FF0000;
+    background-color: white;
+    transition: 0.3s; all;
+}
+
+nav.menu-nav ul li.btn img{
+    padding:auto;
+    z-index: 1;
+    width: 56px;
+    height: 42px;
+    vertical-align: middle;
+    border-radius: 45%;
+}
+
+.menu-nav ul{
+    background-color: antiquewhite;
+    border-radius: 0px 0px 15px 0px;
+    margin-left: -40px;
+}
+
+.nav-underline{
+    background-color: black;
+    display: flex-start;
+    z-index: 1;
+    list-style-type: none;
+    position: sticky;
+}
+
+.nav-item{
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 30%;
+
+}
+
+/* Panel de presentation */
+
+.panels{
+    display: flex;
+}
+
+.panel{
+    height: 40vh;
+    flex: 1;
+    transition: flex 0.6s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.panel:hover{
+    flex: 3;
+}
+
+.jeu1{
+    background-image: url("../img/assassin's_creed_pres.jpg");
+}
+
+.jeu2{
+    background-image: url("../img/ghost_of_tsushima_pres.png");
+}
+
+.jeu3{
+    background-image: url("../img/god_of_war_pres.jpg");
+}
+
+.jeu4{
+    background-image: url("../img/the_witcher_pres.png");
+}
+
+.titrePresentation{
+    color: white;
+    font-size: 2em;
+    opacity: 0%;
+    transition: opacity 1s;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.titrePresentation:hover{
+opacity: 100%;
+align-content: center;
+}
+
+/* Suite */
+
+.suite{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+
+.propos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .propos h3{
+    background-color: rgb(176, 224, 234, 1);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 45px;
+    margin: 5px;
+  }
+  .propos img{
+    z-index: -1;
+    width: 400px;
+    height: auto;
+    border-radius: 360px;
+    transition: 0.5s;
+  }
+  .propos img:hover{
+    transform: scale(1.15);
+    padding: 30px;
+  }
+  .portrait-text{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .contact h3{
+    text-align: center;
+    padding: 15px;
+    background-color: bisque;
+    border: solid 1px;
+    border-radius: 360px;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .contact h3:hover{
+    color: white;
+    background-color: #FF0000;
+    transition: 0.3s; all;
+    border: dashed white;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    color: gray;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: bisque;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FF0000;
+    color: white;
+  }
+  .contact {
+    border-radius: 5px;
+    padding: 20px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+/* Footer  */
+
+.deep-end{
+    text-align: center;
+}
