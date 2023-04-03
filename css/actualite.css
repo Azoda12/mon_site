@@ -97,23 +97,23 @@ nav.menu-nav ul li.btn img{
 }
 
 
-.jeu1{
-    background-image: url("../img/assassin's_creed_pres.jpg");
+.new1{
+    background-image: url("../img/eldenring-news.jpeg");
 }
 
 
-.jeu2{
-    background-image: url("../img/ghost_of_tsushima_pres.png");
+.new2{
+    background-image: url("../img/ff16-news.jpg");
 }
 
 
-.jeu3{
-    background-image: url("../img/god_of_war_pres.jpg");
+.new3{
+    background-image: url("../img/zelda-news.jpg");
 }
 
 
-.jeu4{
-    background-image: url("../img/the_witcher_pres.png");
+.new4{
+    background-image: url("../img/JediSurvivor-news.PNG");
 }
 
 
@@ -121,16 +121,18 @@ nav.menu-nav ul li.btn img{
     color: white;
     font-size: 2em;
     opacity: 0%;
-    transition: opacity 1s;
+    transition: opacity 0.8s;
     display: flex;
     justify-content: center;
     margin-top: 15vh;
+    text-align: center;
 }
 
 
 .titrePresentation:hover{
 opacity: 100%;
 align-content: center;
+text-align: center;
 }
 
 
@@ -148,12 +150,29 @@ align-content: center;
 }
 
 
-.suite{
+.new{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
 }
 
+.description p{
+text-align: justify;
+margin: 3vw;
+}
+
+.description h3{
+    text-align: center;
+    margin: 2vw;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 170%;
+}    
+
+.news img{
+    width: 35vw;
+    border-color: black;
+    border: 5px;
+}
 
 /* Card */
 

@@ -79,9 +79,18 @@ nav.menu-nav ul li.btn img{
 
 }
 
-/* Panel de presentation */
+/* fond */
 
-
+.fond{
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.6);
+  margin-top: 80px;
+  padding: 20px;
+  padding-top: 3px;
+  border-radius: 20px;
+  box-sizing: none;
+}
 
 /* Suite */
 
@@ -112,14 +121,20 @@ nav.menu-nav ul li.btn img{
     border-radius: 45px;
     margin: 5px;
   }
+
+.portrait-img{
+border-radius: 360px;
+overflow: hidden;
+}
+
   .propos img{
-    width: 400px;
+    width: 25vw;
     height: auto;
     border-radius: 1080px;
     transition: 0.5s;
   }
   .propos img:hover{
-    transform: scale(1.5);
+    transform: scale(2);
     padding: 30px;
     margin: 30px;
   }
@@ -139,7 +154,7 @@ nav.menu-nav ul li.btn img{
   }
   .contact h3:hover{
     color: white;
-    background-color: #FF0000;
+    background-color: #121212;
     transition: 0.3s; all;
     border: dashed white;
   }
@@ -163,7 +178,7 @@ nav.menu-nav ul li.btn img{
   }
   
   input[type=submit]:hover {
-    background-color: #FF0000;
+    background-color: #121212;
     color: white;
   }
   .contact {
