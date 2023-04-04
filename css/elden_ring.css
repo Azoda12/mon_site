@@ -88,6 +88,8 @@ nav.menu-nav ul li.btn img:hover{
 /* Suite */
 
 .fond{
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255, 0.6);
@@ -96,56 +98,17 @@ nav.menu-nav ul li.btn img:hover{
     padding-top: 3px;
     border-radius: 20px;
     box-sizing: none;
-}
-
-.suite{
-    margin: 20px;
-    margin-top: 80px;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 70vw;
+    height: 55vh;
+    border: 0;
+}
 /* Card */
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-.cards .card{
-    margin: 20px;
-    justify-content: center;
-    width: 16.6%;
-    min-width: 150px;
-}
-
-
-.cards .card img{
-    width: 100%;
-    min-width: 120px;
-    max-height: 38vh;
-}
-
-
-.cards .card .card-header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
-    }
-
-
-.cards .card .card-body p{
-    margin-top: -10px;
-}
-
-
-
-
 
 
 /* Footer  */

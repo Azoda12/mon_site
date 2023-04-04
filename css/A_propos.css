@@ -198,4 +198,8 @@ overflow: hidden;
 
 .deep-end{
     text-align: center;
+    text-decoration: aliceblue;
+}
+a{
+  text-decoration: none;
 }
