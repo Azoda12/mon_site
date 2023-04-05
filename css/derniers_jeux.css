@@ -141,6 +141,7 @@ nav.menu-nav ul li.btn img:hover{
 
 .cards .card .card-body p{
     margin-top: -10px;
+    text-align: justify;
 }
 
 
@@ -153,5 +154,6 @@ nav.menu-nav ul li.btn img:hover{
 
 .deep-end{
     text-align: center;
-    text-decoration: aliceblue;
+    color: aliceblue;
+    font-size:medium;
 }

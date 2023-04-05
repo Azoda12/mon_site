@@ -188,6 +188,8 @@ align-content: center;
 
 .cards .card .card-body p{
     margin-top: -10px;
+    margin-bottom: -10px;
+    text-align: justify;
 }
 
 /* slider */
@@ -339,5 +341,6 @@ iframe{
 
 .deep-end{
     text-align: center;
-    text-decoration: aliceblue;
+    color: aliceblue;
+    font-size:medium;
 }

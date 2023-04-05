@@ -211,20 +211,13 @@ margin: 3vw;
     margin-top: -10px;
 }
 
-/* slider */
-
-
-.Youtube video{
-    background-size: cover;
-width: 1080px;
-height: auto;
-}
-
 
 /* Footer  */
 
 
 .deep-end{
     text-align: center;
-    text-decoration: aliceblue;
+    color: aliceblue;
+    font-size:medium;
 }
+

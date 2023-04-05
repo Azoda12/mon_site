@@ -13,8 +13,7 @@ body{
     color: whitesmoke;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5em;
-    margin: 15px;
+    font-size: 4em;
 }
 
 
@@ -93,13 +92,65 @@ nav.menu-nav ul li.btn img:hover{
     width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255, 0.6);
-    margin-top: 80px;
     padding: 20px;
     padding-top: 3px;
     border-radius: 20px;
     box-sizing: none;
     justify-content: center;
 }
+
+.cover img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    width: 30vw;
+    height: auto;
+    border: 0;
+}
+
+h2{
+    padding: 5px 40px 5px 25px;
+    font-family: 'titre';
+    font-weight: bold;
+    font-size: 220%;
+    text-decoration: underline;
+    background-color: #000000;
+    border-radius: 0px 0px 45px 45px;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-top: white;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    z-index: -1;
+  }
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 160%
+}
+
+.titre{
+    text-align: center;
+  }
+
+.synopsis{
+    text-align: justify;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.gameplay{
+    text-align: justify;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
 
 iframe{
     display: block;
@@ -116,5 +167,6 @@ iframe{
 
 .deep-end{
     text-align: center;
-    text-decoration: aliceblue;
+    color: aliceblue;
+    font-size:medium;
 }
