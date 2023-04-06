@@ -45,7 +45,7 @@ nav.menu-nav ul li.btn a{
 nav.menu-nav ul li.btn:hover a{
     color: white;
     background-color: black;
-    transition: 0.15s; all;
+    transition: 0.15s all;
     border-radius: 10px;
 }
 
@@ -160,7 +160,7 @@ overflow: hidden;
   .contact h3:hover{
     color: white;
     background-color: #121212;
-    transition: 0.3s; all;
+    transition: 0.3s all;
     border: dashed white;
   }
   input[type=text], select, textarea {
