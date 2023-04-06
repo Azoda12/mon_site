@@ -1,5 +1,5 @@
 # mon_site
--Projet de librairie de Léo Curt sur les jeux d'aventure
+Projet de librairie de Léo Curt sur les jeux d'aventure
 
 -Vous pouvez retrouver sur ce site la page principale presentant un panel, des cards de jeux dont la premiere sur Elden ring est cliquable.Pour finir un slider des différent trailer des jeux presenter au dessus.
 
