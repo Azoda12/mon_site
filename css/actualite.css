@@ -1,6 +1,6 @@
-body{
+body {
     background-color: #121212;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     color: black;
     font-size: 130%;
@@ -10,7 +10,7 @@ body{
 }
 
 
-.title{
+.title {
     color: whitesmoke;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,38 +22,39 @@ body{
 /* Nav barre*/
 
 
-.nav{top: 0;
+.nav {
+    top: 0;
     position: sticky;
     z-index: 1;
-    }
+}
 
 
-nav.menu-nav ul li.btn{
+nav.menu-nav ul li.btn {
     display: inline-block;
     list-style-type: none;
     padding: 14px;
 }
 
 
-nav.menu-nav ul li.btn a{
+nav.menu-nav ul li.btn a {
     margin-top: 0;
-    text-decoration:none;
+    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     padding: 15px;
 }
 
 
-nav.menu-nav ul li.btn:hover a{
+nav.menu-nav ul li.btn:hover a {
     color: white;
     background-color: black;
-    transition: 0.15s; all;
+    transition: 0.15s all;
     border-radius: 10px;
 }
 
 
-nav.menu-nav ul li.btn img{
-    padding:auto;
+nav.menu-nav ul li.btn img {
+    padding: auto;
     z-index: 1;
     width: 56px;
     height: 42px;
@@ -62,7 +63,7 @@ nav.menu-nav ul li.btn img{
 }
 
 
-.menu-nav ul{
+.menu-nav ul {
     background-color: antiquewhite;
     border-radius: 0px 0px 15px 0px;
     margin-left: -40px;
@@ -72,13 +73,13 @@ nav.menu-nav ul li.btn img{
 /* Panel de presentation */
 
 
-.panels{
+.panels {
     display: flex;
     margin-top: 40px;
 }
 
 
-.panel{
+.panel {
     height: 40vh;
     flex: 1;
     transition: flex 0.6s;
@@ -88,32 +89,32 @@ nav.menu-nav ul li.btn img{
 }
 
 
-.panel:hover{
+.panel:hover {
     flex: 3;
 }
 
 
-.new1{
+.new1 {
     background-image: url("../img/eldenring-news.jpeg");
 }
 
 
-.new2{
+.new2 {
     background-image: url("../img/ff16-news.jpg");
 }
 
 
-.new3{
+.new3 {
     background-image: url("../img/zelda-news.jpg");
 }
 
 
-.new4{
+.new4 {
     background-image: url("../img/JediSurvivor-news.PNG");
 }
 
 
-.titrePresentation{
+.titrePresentation {
     color: white;
     font-size: 2em;
     opacity: 0%;
@@ -122,19 +123,23 @@ nav.menu-nav ul li.btn img{
     justify-content: center;
     margin-top: 15vh;
     text-align: center;
+    text-decoration: none;
+    text-decoration-color: white;
 }
 
 
-.titrePresentation:hover{
-opacity: 100%;
-align-content: center;
-text-align: center;
+.titrePresentation:hover {
+    opacity: 100%;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 
 /* Suite */
 
-.fond{
+.fond {
     width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255, 0.6);
@@ -146,34 +151,44 @@ text-align: center;
 }
 
 
-.new{
+.new {
     display: flex;
     padding: 20px;
 }
 
-.description p{
-text-align: justify;
-margin: 3vw;
+.description p {
+    text-align: justify;
+    margin: 3vw;
 }
 
-.description h3{
+.description h3 {
     text-align: center;
     margin: 2vw;
     text-decoration: underline;
     font-weight: bold;
     font-size: 170%;
-}    
+}
 
-.news img{
+.news img {
     width: 35vw;
     border-color: black;
     border: 5px;
 }
 
+h3 {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    text-decoration: none;
+    color: white;
+}
+
 /* Card */
 
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -181,7 +196,7 @@ margin: 3vw;
 }
 
 
-.cards .card{
+.cards .card {
     margin: 20px;
     justify-content: center;
     width: 20%;
@@ -189,21 +204,21 @@ margin: 3vw;
 }
 
 
-.cards .card img{
+.cards .card img {
     width: 80%;
     margin-left: 10%;
     min-width: 120px;
 }
 
 
-.cards .card .card-header{
+.cards .card .card-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    }
+}
 
 
-.cards .card .card-body p{
+.cards .card .card-body p {
     margin-top: -10px;
 }
 
@@ -211,9 +226,8 @@ margin: 3vw;
 /* Footer  */
 
 
-.deep-end{
+.deep-end {
     text-align: center;
     color: aliceblue;
-    font-size:medium;
+    font-size: medium;
 }
-

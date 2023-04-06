@@ -1,6 +1,6 @@
-body{
+body {
     background-color: #121212;
-        background-size:cover;
+    background-size: cover;
     background-position: center;
     color: black;
     font-family: 'paragraphe';
@@ -9,7 +9,7 @@ body{
 }
 
 
-.title{
+.title {
     color: whitesmoke;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,13 +21,14 @@ body{
 /* Nav barre*/
 
 
-.nav{top: 0;
+.nav {
+    top: 0;
     position: sticky;
     z-index: 1;
-    }
+}
 
 
-nav.menu-nav ul li.btn{
+nav.menu-nav ul li.btn {
     display: inline-block;
     z-index: 1;
     list-style-type: none;
@@ -36,28 +37,28 @@ nav.menu-nav ul li.btn{
 }
 
 
-nav.menu-nav ul li.btn a{
+nav.menu-nav ul li.btn a {
     margin-top: 0;
-    text-decoration:none;
+    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     padding: 15px;
 }
 
 
-nav.menu-nav ul li.btn:hover a{
+nav.menu-nav ul li.btn:hover a {
     color: white;
     background-color: black;
-    transition: 0.15s; all;
+    transition: 0.15s all;
     border-radius: 10px;
 }
 
 
 
 
-nav.menu-nav ul li.btn img{
+nav.menu-nav ul li.btn img {
     background-image: url("img/logo_black.png");
-    padding:auto;
+    padding: auto;
     z-index: 1;
     width: 56px;
     height: 42px;
@@ -65,16 +66,16 @@ nav.menu-nav ul li.btn img{
     transition: 0.15s;
 }
 
-nav.menu-nav ul li.btn img:hover{
+nav.menu-nav ul li.btn img:hover {
     background-image: url("img/logo_white.png");
-    padding:auto;
+    padding: auto;
     z-index: 1;
     width: 56px;
     height: 42px;
     vertical-align: middle;
 }
 
-.menu-nav ul{
+.menu-nav ul {
     background-color: antiquewhite;
     border-radius: 0px 0px 15px 0px;
     margin-left: -40px;
@@ -87,7 +88,7 @@ nav.menu-nav ul li.btn img:hover{
 
 /* Suite */
 
-.fond{
+.fond {
     width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255, 0.6);
@@ -98,7 +99,7 @@ nav.menu-nav ul li.btn img:hover{
     box-sizing: none;
 }
 
-.suite{
+.suite {
     margin: 20px;
     margin-top: 80px;
     display: flex;
@@ -108,7 +109,7 @@ nav.menu-nav ul li.btn img:hover{
 
 /* Card */
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -116,7 +117,7 @@ nav.menu-nav ul li.btn img:hover{
 }
 
 
-.cards .card{
+.cards .card {
     margin: 20px;
     justify-content: center;
     width: 16.6%;
@@ -124,36 +125,32 @@ nav.menu-nav ul li.btn img:hover{
 }
 
 
-.cards .card img{
+.cards .card img {
     width: 100%;
     min-width: 120px;
     max-height: 38vh;
 }
 
 
-.cards .card .card-header{
+.cards .card .card-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-    }
+}
 
 
-.cards .card .card-body p{
+.cards .card .card-body p {
     margin-top: -10px;
     text-align: justify;
 }
 
 
-
-
-
-
 /* Footer  */
 
 
-.deep-end{
+.deep-end {
     text-align: center;
     color: aliceblue;
-    font-size:medium;
+    font-size: medium;
 }
